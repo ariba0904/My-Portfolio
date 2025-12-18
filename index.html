@@ -134,44 +134,58 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="container contact glass-section">
-      <h2 class="section-title">Get in touch</h2>
-      <div class="contact-grid">
-        <form id="contactForm" class="contact-form glass" novalidate>
-          <label><span>Name</span><input type="text" name="name" placeholder="Your name" required></label>
-          <label><span>Email</span><input type="email" name="email" placeholder="you@example.com" required></label>
-          <label><span>Message</span><textarea name="message" rows="5" placeholder="How can I help?" required></textarea></label>
-          <div class="form-row">
-            <button type="submit" class="btn primary">Send Message</button>
-            <button type="button" id="clearForm" class="btn ghost">Clear</button>
-          </div>
-        </form>
+<!-- CONTACT -->
+<section id="contact" class="container contact glass-section">
+  <h2 class="section-title">Get in touch</h2>
+  <div class="contact-grid">
+    
+    <form 
+      id="contactForm"
+      class="contact-form glass"
+      action="https://docs.google.com/forms/d/e/1FAIpQLSfKCPFocmVFPWSRdtPT-m1c0_EqEdhvdVXXKde3CVixwGj-Jg/formResponse"
+      method="POST"
+      target="hidden_iframe"
+    >
+      <label>
+        <span>Name</span>
+        <input type="text" name="entry.662773356" placeholder="Your Name" required>
+      </label>
 
-        <div class="contact-info glass">
-          <h3>Contact details</h3>
-          <p class="muted">Email: <a href="mailto:jannatulmaowaariba0@gmail.com">jannatulmaowaariba0@gmail.com</a></p>
-          <p class="muted">Phone: +880 1856 119274</p>
-          <p class="muted">Address: DC Road, Chawkbazar, Chittagong</p>
-          <div class="contact-cta"><a href="mailto:jannatulmaowaariba0@gmail.com" class="btn outline"><i class="fa-solid fa-envelope"></i> Email Me</a></div>
-        </div>
+      <label>
+        <span>Email</span>
+        <input type="email" name="entry.357391150" placeholder="Your Email" required>
+      </label>
+
+      <label>
+        <span>Message</span>
+        <textarea name="entry.1184389512" rows="5" placeholder="Your Message" required></textarea>
+      </label>
+
+      <div class="form-row">
+        <button type="submit" class="btn primary">Send Message</button>
+        <button type="button" id="clearForm" class="btn ghost">Clear</button>
       </div>
-    </section>
 
-  </main>
+      <!-- Inline success message -->
+      <p id="successMessage" style="display:none; color:#00ff7f; margin-top:10px;">Message sent successfully!</p>
+    </form>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Jannatul Maowa Ariba — All rights reserved.</p>
-      <div class="tiny-social">
-        <a href="https://github.com/ariba0904" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="http://www.linkedin.com/in/jannatul-maowa-ariba-218a0b349" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
+    <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+    <div class="contact-info glass">
+      <h3>Contact details</h3>
+      <p class="muted">Email: <a href="mailto:jannatulmaowaariba0@gmail.com">jannatulmaowaariba0@gmail.com</a></p>
+      <p class="muted">Phone: +880 1856 119274</p>
+      <p class="muted">Address: DC Road, Chawkbazar, Chittagong</p>
+      <div class="contact-cta"><a href="mailto:jannatulmaowaariba0@gmail.com" class="btn outline"><i class="fa-solid fa-envelope"></i> Email Me</a></div>
     </div>
-  </footer>
+  </div>
+</section>
+
 
   <!-- JS -->
   <script src="script.js" defer></script>
 </body>
 </html>
+
 
