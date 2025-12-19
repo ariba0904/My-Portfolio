@@ -41,6 +41,12 @@ The website will open in your browser.
 If hosted using GitHub Pages, the link will appear here:
 https://ariba0904.github.io/My-Portfolio/
 
+## Contact Form Messages
+All messages submitted via the **Get in Touch** form in this portfolio are collected in a Google Sheet.   
+You can view the Google Sheet here:
+[View Messages](https://docs.google.com/spreadsheets/d/e/1FAIpQLSfKCPFocmVFPWSRdtPT-m1c0_EqEdhvdVXXKde3CVixwGj-Jg/viewform)
+> Note: This sheet is view-only to protect privacy.
+
 ## 📄 Download My CV
 Click the Download CV button on the website to get the latest copy of my resume.
 
