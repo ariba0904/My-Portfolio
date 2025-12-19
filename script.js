@@ -1,35 +1,51 @@
-// ---------- NAV TOGGLE ----------
-const navToggle = document.getElementById('navToggle');
-const navLinks = document.getElementById('navLinks');
+document.addEventListener('DOMContentLoaded', function () {
 
-navToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('show');
+  // ---------- NAV TOGGLE ----------
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  }
+
+  // ---------- FOOTER YEAR ----------
+  const year = document.getElementById('year');
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+
+  // ---------- CONTACT FORM ----------
+  const contactForm = document.getElementById('contactForm');
+  const clearBtn = document.getElementById('clearForm');
+  const sendStatus = document.getElementById('sendStatus');
+
+  // Clear button
+  if (clearBtn && contactForm) {
+    clearBtn.addEventListener('click', () => {
+      contactForm.reset();
+      if (sendStatus) sendStatus.style.display = 'none';
+    });
+  }
+
+  // Send message clue
+  if (contactForm && sendStatus) {
+    contactForm.addEventListener('submit', () => {
+      setTimeout(() => {
+        sendStatus.style.display = 'block';
+        contactForm.reset();
+
+        // auto-hide after 6 seconds 
+        setTimeout(() => {
+          sendStatus.style.display = 'none';
+        }, 6000);
+      }, 500);
+    });
+  }
+
 });
 
-// ---------- FOOTER YEAR ----------
-const year = document.getElementById('year');
-year.textContent = new Date().getFullYear();
 
-// ---------- CONTACT FORM CLEAR ----------
-const clearBtn = document.getElementById('clearForm');
-const contactForm = document.getElementById('contactForm');
-const successMessage = document.getElementById('successMessage');
-
-clearBtn.addEventListener('click', () => {
-  contactForm.reset();
-  successMessage.style.display = 'none';
-});
-
-// ---------- GOOGLE FORM SUBMIT SUCCESS MESSAGE ----------
-contactForm.addEventListener('submit', () => {
-  setTimeout(() => {
-    successMessage.style.display = 'block';
-    contactForm.reset(); 
-
-    setTimeout(() => {
-      successMessage.style.display = 'none';
-    }, 5000);
-  }, 500); 
-});
 
 
