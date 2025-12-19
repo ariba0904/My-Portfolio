@@ -2,8 +2,8 @@
 :root {
   --primary-color: #4facfe;
   --secondary-color: #00f2fe;
-  --bg-color: #0b1b33; /* Dark blue background */
-  --text-color: #e0e0e0; /* Light text */
+  --bg-color: #0b1b33;
+  --text-color: #e0e0e0;
   --accent-color: #ff6ec7;
   --glass-bg: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.15);
@@ -151,6 +151,7 @@ h1, h2, h3, h4 {
   gap: 20px;
 }
 
+/* ---------- PROFILE CARD ---------- */
 .profile-card {
   display: flex;
   flex-direction: column;
@@ -163,10 +164,10 @@ h1, h2, h3, h4 {
 }
 
 .avatar {
-   width: 250px;          /* bigger image */
-  height: auto;         /* square shape */
-  object-fit: contain;     /* keeps image clear and visible */
-  border-radius: 12px;   /* slightly rounded corners (not circle) */
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
   border: 3px solid var(--accent-color);
 }
 
@@ -175,15 +176,7 @@ h1, h2, h3, h4 {
 }
 
 .mini-stats {
-  margin: 10px 0;
-  width: 100%;
-}
-
-.mini-stats div {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  color: #cfd8dc;
+  display: none; /* empty block cleanup */
 }
 
 .tiny-cta .btn.small {
@@ -230,13 +223,18 @@ h1, h2, h3, h4 {
   background: var(--primary-color);
 }
 
-/* ---------- EDUCATION & PROJECTS ---------- */
-.edu-cards, .projects-grid, .events-grid, .skills-grid {
+/* ---------- EDUCATION, PROJECTS, EVENTS ---------- */
+.edu-cards,
+.projects-grid,
+.events-grid,
+.skills-grid {
   display: grid;
   gap: 20px;
 }
 
-.edu-card, .project-card, .skill-card {
+.edu-card,
+.project-card,
+.skill-card {
   background: var(--glass-bg);
   border-radius: 15px;
   padding: 20px;
@@ -266,13 +264,15 @@ h1, h2, h3, h4 {
   gap: 40px;
 }
 
-.contact-form, .contact-info {
+.contact-form,
+.contact-info {
   flex: 1;
   min-width: 300px;
 }
 
 /* Inputs */
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -283,8 +283,16 @@ h1, h2, h3, h4 {
   color: #e0e0e0;
 }
 
-.contact-form input::placeholder, .contact-form textarea::placeholder {
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
   color: #cfd8dc;
+}
+
+/* Focus accessibility */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--accent-color);
+  background: rgba(255,255,255,0.15);
 }
 
 .contact-form button {
@@ -297,7 +305,7 @@ h1, h2, h3, h4 {
   padding: 20px 0;
   background: rgba(11, 27, 51, 0.9);
   border-top: 1px solid var(--glass-border);
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .tiny-social a {
@@ -311,7 +319,7 @@ h1, h2, h3, h4 {
 }
 
 /* ---------- MEDIA QUERIES ---------- */
-@media(max-width: 900px){
+@media (max-width: 900px) {
   .hero {
     flex-direction: column;
     text-align: center;
