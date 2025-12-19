@@ -16,6 +16,9 @@ The design is clean, modern, and responsive, with a soft color palette to make i
 ## 🔗 Social links (Facebook, GitHub, LinkedIn, Instagram)
 ## 🎨 Beautiful color combinations & smooth animations
 
+## Figma prototype link of my Portfolio Design:
+https://www.figma.com/proto/zpYUHn3TjfW1QtXaaw7oi4/ariba?node-id=2-2&p=f&t=Ti2muHC5yIOGOW3g-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
 ## 🛠 Technologies Used
 HTML5 — Structure
 CSS3 — Styling & layout
