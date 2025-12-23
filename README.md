@@ -54,10 +54,15 @@ Click the Download CV button on the website to get the latest copy of my resume.
 
 ## 📬 Contact Me
 You can reach me through:
+
 ✉️ Email: jannatulmaowaariba0@gmail.com
+
 💼 LinkedIn: https://www.linkedin.com/in/jannatul-maowa-ariba-218a0b349
-💻 X: https://x.com/jm_ariba?t=QqCArTIp7J4dsj--Hao08A&s=09
+
+💻 X: https://x.com/jm_ariba?t=QqCArTIp7J4dsj--Hao08A&s=09y
+
 📷 Instagram: https://www.instagram.com/j_m_ariba?utm_source=qr&igsh=MXEyb2E4b203ZGJtaw==
+
 🌐 Faceboodk: https://www.facebook.com/share/1CqqDKt5ow/
 
 ## 💖 About This Portfolio
