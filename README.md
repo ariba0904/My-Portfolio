@@ -33,7 +33,7 @@ Iconify / Remix Icons / Font Awesome — Icons
 ## 📂 Project Structure
 / (root folder)
 │── index.html
-│── style.css
+│── styles.css
 │── script.js
 │── image
 │── CV.pdf
