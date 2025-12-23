@@ -12,9 +12,8 @@ The design is clean, modern, and responsive, with a soft color palette to make i
   - Project cards with technology tags.
 - *Social Links & Contact:* Easily connect via GitHub, LinkedIn, Facebook, Instagram, or email.
 - *Downloadable CV:* Visitors can download my CV directly from the website.
-
-## 🔗 Social links (Facebook, GitHub, LinkedIn, Instagram)
-## 🎨 Beautiful color combinations & smooth animations
+🔗 Social links (Facebook, GitHub, LinkedIn, Instagram)
+🎨 Beautiful color combinations & smooth animations
 
 ## 🌐 Live Demo
 If hosted using GitHub Pages, the link will appear here:
@@ -55,10 +54,11 @@ Click the Download CV button on the website to get the latest copy of my resume.
 
 ## 📬 Contact Me
 You can reach me through:
-🌐 Facebook: linked on website
-💼 LinkedIn: linked on website
-💻 GitHub: linked on website
-📷 Instagram: linked on website
+✉️ Email: jannatulmaowaariba0@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/jannatul-maowa-ariba-218a0b349
+💻 X: https://x.com/jm_ariba?t=QqCArTIp7J4dsj--Hao08A&s=09
+📷 Instagram: https://www.instagram.com/j_m_ariba?utm_source=qr&igsh=MXEyb2E4b203ZGJtaw==
+🌐 Faceboodk: https://www.facebook.com/share/1CqqDKt5ow/
 
 ## 💖 About This Portfolio
 This portfolio represents who I am —
