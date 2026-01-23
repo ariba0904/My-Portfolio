@@ -10,7 +10,7 @@ The design is clean, modern, and responsive, with a soft color palette to make i
   - Animated navbar toggle for mobile screens.
   - Skill bars to showcase proficiency.
   - Project cards with technology tags.
-- *Social Links & Contact:* Easily connect via GitHub, LinkedIn, Facebook, Instagram, or email.
+- *Social Links & Contact:* Easily connect via Email, GitHub, LinkedIn, Facebook & Instagram.
 - *Downloadable CV:* Visitors can download my CV directly from the website.
 🔗 Social links (Facebook, GitHub, LinkedIn, Instagram)
 🎨 Beautiful color combinations & smooth animations
@@ -34,8 +34,11 @@ Iconify / Remix Icons / Font Awesome — Icons
 │── index.html
 │── styles.css
 │── script.js
-│── image
-│── CV.pdf
+│── Image.jpg
+│── CV.pdf.pdf
+|── Airbus.jpg
+|── Libraryimage.webp
+|── Hotelimage.webp
 
 ## 🚀 How to Run Locally
 Download or clone the repository
@@ -67,4 +70,4 @@ You can reach me through:
 
 ## 💖 About This Portfolio
 This portfolio represents who I am —
-A passionate CSE student at IIUC, skilled in video editing, design, management, leadership, programming, and photography, and always eager to grow and improve.
+A passionate CSE student at IIUC, skilled in video editing, design, programming, photography, management & leadership and always eager to grow and improve.
